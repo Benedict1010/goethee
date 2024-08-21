@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 (async () => {
     const numberOfBrowsers = 2;
     const pageURL = 'https://www.goethe.de/ins/de/en/prf/ort/fra/gzb2.cfm';
-    const targetTime = '21:16:00'; // The exact time you want to start clicking (e.g., 10:30 AM)
+    const targetTime = '10:00:00'; // The exact time you want to start clicking (e.g., 10:30 AM)
 
     try {
         // Function to wait until the exact target time
